@@ -1,4 +1,1028 @@
-.bg-body {
-    
-    background-color: white;
+.website-colors{
+    --primary-color:#0067B8;
+    --black-color:#000;
+    --grey-color:rgb(38, 38, 38)
 }
+
+
+.main-nav-bar .navbar ul.dropdown-menu{
+    background-color: #f2f2f2;
+    width: 1200px;
+}
+
+.main-nav-bar .navbar ul.dropdown-menu li{
+    display: flex;
+
+}
+
+.main-nav-bar .navbar ul.dropdown-menu li h5{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 20px 10px;
+    color: var(--black-color);
+
+}
+
+
+.main-nav-bar .navbar ul.dropdown-menu li a{
+    text-decoration: none;
+    color: var(--grey-color);
+    font-size: 13px;
+    margin: 10px 10px;
+
+}
+
+
+
+.fi-rr-search{
+    display: inline-block;
+    transform: rotate(90deg)!important;
+}
+
+
+.main-nav-bar .navbar ul.left-nav-list li.nav-item a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
+.main-nav-bar .navbar ul.navbar-nav li.nav-item a i.icons{
+    margin-left:10px;
+
+}
+
+
+
+.main-nav-bar .navbar ul.navbar-nav li.nav-item a{
+    display: inline;
+    padding: 0;
+    margin:10px;
+
+
+
+
+}
+
+.main-nav-bar .navbar ul.navbar-nav li.nav-item a.no-margin{
+    margin-right: 0;
+}
+
+
+
+.navbar-nav li.nav-item a.no-hover-link:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+.navbar-nav li.nav-item:not(.no-hover) a.nav-link:hover span{
+    border-bottom: 2px solid black;
+}
+/* Slider Inner Text*/
+/* Slider Inner Text Hero-slider-1*/
+
+.Hero-section .carousel .carousel-inner .hero-section-1{
+    position: relative;
+    cursor: pointer;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+    position: absolute;
+    padding: 10px 30px;
+    width: 35%;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 {
+    text-align: left;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a{
+    text-decoration: none;
+}
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 15px;
+    margin: 0;
+}
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+    font-size: 18px;
+    color: black;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+    font-size: 15px;
+    color: white;
+    background-color:#0067ba;
+    padding: 10px;
+    font-weight: 600;
+}
+.Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a:hover{
+    background-color: #1a6985;
+}
+
+/* Slider Inner Text Hero-slider-2*/
+
+.Hero-section .carousel .carousel-inner .hero-section-2{
+    position: relative;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption{
+    position: absolute;
+    padding: 10px 30px;
+    width: 35%;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 {
+    text-align: left;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 a{
+    text-decoration: none;
+}
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 h2{
+    
+    color: black;
+    padding-bottom: 15px;
+}
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 p{
+    color: black;
+    padding-bottom: 15px;
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link{
+    display: flex;
+    align-items: center;
+
+}
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link a.hover-padding{
+    color: white;
+    background-color:#0067ba;
+    padding: 10px;
+    font-weight: 600;
+}
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link a.hover-padding:hover{
+    background-color: #1a6985;
+}
+
+
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link a.hover-underline{
+    color: black;
+    font-weight: 600;
+    margin: 0 20px;
+}
+/*
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link a.hover-underline span.material-symbols-outlined{
+    padding: 0;
+    margin: 0 70px;
+}
+*/
+.Hero-section .carousel .carousel-inner .hero-section-2 .carousel-caption .image-content-hero-section-2 .image-content-link a.hover-underline:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+/* Carousel Button Settings*/
+
+.carousel-indicators {
+    position: none;
+    right: 0;
+    bottom: 3px;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+
+.carousel-indicators button.active {
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px 15px;
+
+}
+
+div.carousel-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .carousel-button-left{
+    border: none;
+    margin: 20px 50px;
+    padding: 0;
+    line-height: 0;
+    transition: all ease-in-out .3s;
+    
+
+
+}
+
+
+.carousel .carousel-button-left:hover {
+	-webkit-transform: translateX(-10px);
+	transform: translateX(-10px);
+}
+
+.carousel .carousel-button-right{
+    border: none;
+    margin: 20px 50px;
+    padding: 0;
+    line-height: 0;
+    transition: all ease-in-out .3s;
+
+}
+
+.carousel .carousel-button-right:hover {
+	-webkit-transform: translateX(10px);
+	transform: translateX(10px);
+}
+
+.material-symbols-outlined{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content-hero-section{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.main-content-hero-section .Outlook-IOS-Android-content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    width: 40%;
+    
+    
+}
+.main-content-hero-section .Outlook-IOS-Android-content a{
+    text-decoration: none;
+    margin: 0;
+
+
+}
+.main-content-hero-section .Outlook-IOS-Android-content h3{
+    font-size: 35px;
+    color: black;
+    background-color: transparent;
+    margin-bottom: 30px;
+
+}
+.main-content-hero-section .Outlook-IOS-Android-content p{
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    margin-bottom: 30px;
+
+}
+.main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+    font-size: 20px;
+    color: white;
+    background-color:  #0067ba;
+
+}
+.main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a:hover{
+
+    background-color: #1a6985;
+
+}
+
+
+
+
+
+
+/* Footer*/
+.footer-list ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.footer-social-links ul li a span{
+    margin:0 10px;
+}
+
+.footer-social-links ul li.list-inline-item a.border-grey:hover span{
+    border-bottom: 1px solid #616161;
+}
+
+.footer-social-links ul li.list-inline-item a.border-black:hover span{
+    border-bottom: 1px solid black;
+}
+
+
+.footer-social-links ul.right-side-contacts li a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 480.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 300px;
+        border: 0;
+        
+    }
+    
+    .main-nav-bar .navbar ul.dropdown-menu li{
+        display: block;
+    
+    }
+
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 20px;
+        width: 55%;
+        top: 40%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 10px;
+        color: black;
+        padding-bottom: 2px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 6px;
+        color: black;
+        padding-bottom: 0;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 6px;
+        color: white;
+        background-color:#0067ba;
+        padding: 2px;
+        font-weight: 400;
+    }
+
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 3px;
+    }
+    
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 50%;
+        
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 3px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 10px;
+        margin-bottom: 5px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 6px;
+        margin-bottom: 5px;
+        
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 6px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 480.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 300px;
+        border: 0;
+        
+    }
+    
+    .main-nav-bar .navbar ul.dropdown-menu li{
+        display: block;
+    
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 20px;
+        width: 55%;
+        top: 45%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 16px;
+        color: black;
+        padding-bottom: 5px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 10px;
+        color: black;
+        padding-bottom: 5px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 8px;
+        color: white;
+        background-color:#0067ba;
+        padding: 3px;
+        font-weight: 400;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 50%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 3px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 8px;
+        padding: 2px;
+    }
+
+
+}
+
+@media screen and (min-width: 573.98px) {
+
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 300px;
+        border: 0;
+        
+    }
+    
+    .main-nav-bar .navbar ul.dropdown-menu li{
+        display: block;
+    
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 20px;
+        width: 55%;
+        top: 45%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 18px;
+        color: black;
+        padding-bottom: 8px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 12px;
+        color: black;
+        padding-bottom: 8px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 8px;
+        color: white;
+        background-color:#0067ba;
+        padding: 3px;
+        font-weight: 400;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 45%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 3px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 15px;
+        margin-bottom: 15px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 10px;
+        margin-bottom: 15px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 8px;
+        padding: 2px;
+    }
+    
+
+}
+
+@media screen and (min-width: 767.98px) {
+
+    .main-nav-bar .navbar ul.dropdown-menu li{
+        display: block;
+    
+    }
+    
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 50%;
+        top: 45%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 25px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 13px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 12px;
+        color: white;
+        background-color:#0067ba;
+        padding: 4px;
+        font-weight: 500;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 45%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 5px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 10px;
+        padding: 4px;
+    }
+    
+
+    
+
+
+
+    
+
+}
+
+
+
+
+@media screen and (min-width: 991.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 700px;
+        border: 0;
+        
+    }
+    .main-nav-bar .navbar ul.dropdown-menu li{
+        display: flex;
+    
+    }
+    
+    
+    
+    .main-nav-bar .navbar ul.dropdown-menu li a{
+        font-size: 12px;
+    
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 45%;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 30px;
+        color: black;
+        padding-bottom: 12px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 16px;
+        color: black;
+        padding-bottom: 12px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 12px;
+        color: white;
+        background-color:#0067ba;
+        padding: 7px;
+        font-weight: 500;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 7px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 12px;
+        padding: 5px;
+    }
+    
+
+
+
+
+    
+
+}
+
+
+@media screen and (min-width: 1291.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 800px;
+        border: 0;
+        
+    }
+    .main-nav-bar .navbar ul.dropdown-menu li h5{
+        font-size: 13px;
+
+    
+    }
+    
+    
+    .main-nav-bar .navbar ul.dropdown-menu li a{
+        font-size: 13px;
+    
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 40%;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 13px;
+        padding: 6px;
+        font-weight: 500;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 10px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 12px;
+        padding: 7px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1351.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 900px;
+        border: 0;
+        
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 40%;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 13px;
+        padding: 6px;
+        font-weight: 500;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 10px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    
+    
+    
+
+
+
+}
+
+@media screen and (min-width: 1451.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 1000px;
+        border: 0;
+        
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 40%;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 14px;
+        padding: 8px;
+        font-weight: 500;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 10px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    
+    
+
+
+}
+
+@media screen and (min-width: 1551.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 1100px;
+        border: 0;
+        
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 45%;
+        top: 50%;
+        left: 7%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 15px;
+        color: white;
+        background-color:#0067ba;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 10px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    
+
+
+}
+
+
+@media screen and (min-width: 1651.98px) {
+    .main-nav-bar .navbar ul.dropdown-menu{
+        width: 1200px;
+        border: 0;
+        
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption{
+        padding: 0 30px;
+        width: 40%;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a h1{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 a p{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+    .Hero-section .carousel .carousel-inner .hero-section-1 .carousel-caption .image-content-hero-section-1 .image-content-link a{
+        font-size: 15px;
+        color: white;
+        background-color:#0067ba;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content{
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        width: 40%;
+        
+        
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content a{
+        padding: 10px;
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    
+    }
+    .main-content-hero-section .Outlook-IOS-Android-content .Outlook-IOS-Android-content-button a{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+}
+
+
+
+
